@@ -1,0 +1,14 @@
+[package]
+name = "random-geolocation"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4.14"
+rand = "0.8.4"
+clap = "2.33.3"
+anyhow = "1.0.41"
+geoutils = "0.4.1"
+reqwest = { version = "0.11.4", features = ["blocking"] }
